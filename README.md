@@ -28,7 +28,7 @@ The file will be automatically generated with name *canlog_test-* [date] *.txt*
 ### Usage
 `./[name] [interface]`  
 >## Canplay  
-Canplay reads the .txt log file generated from *canlog_test* and send the logged messages through the specified interface.
+Canplay reads the .txt log file generated from *canlog_test* and send the logged messages through the specified interface with the same time gap they had when logged.
 ### Compiling
 `gcc -o [name] canplay_test.c`  
 ### Usage  
